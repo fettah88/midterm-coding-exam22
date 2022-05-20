@@ -27,11 +27,21 @@ public class EmployeeInfo {
 	 * following 2 methods are prototype as well for other methods need to be design,
 	 * as you will come up with the new ideas.
 	 */
-	
+	int employeeId;
+	String employeeName;
+	String performance;
+	String department;
+	final static String COMPANYNAME_A = "APPLE";
+	final static String COMPANYNAME_B = "GOOGLE";
+	final static String COMPANYNAME_C = "INSTAGRAM";
+	final static String COMPANYNAME_D = "FACEBOOK";
+	final static String COMPANYNAME_E = "FORTUNE";
 	/*
 	 * you must have multiple constructor.
 	 * Must implement below constructor.
 	 */
+
+
 	public EmployeeInfo(int employeeId){
 		
 	}

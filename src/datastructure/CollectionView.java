@@ -19,7 +19,12 @@ public static void main(String[] args) {
         map.put(6, "Seattle");
 
 
+        Collection<String> val= map.values();
+        for(String st:val){
+                System.out.println(st);
+        }
+}
+
 
     }
 
-}

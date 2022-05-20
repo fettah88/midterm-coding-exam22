@@ -12,15 +12,15 @@ public interface Employee {
 	public int employeeId();
 	
 	//employeeName() will return employee name
-	public String employeeName();
+	 String employeeName();
 	
 	//assignDepartment() will assign employee to departments
-    public void assignDepartment();
+    void assignDepartment();
 	
 	//calculate employee salary
-	public int calculateSalary();
+ int calculateSalary();
 	
 	//employee benefit
-	public void benefitLayout();
+boolean benefitLayout();
 
 }
