@@ -1,7 +1,7 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.A programming language is a computer language that is used by programmers (developers) to communicate
+A. programming language is a computer language that is used by programmers (developers) to communicate
  with computers.It is a set of instructions written in any specific language
   ( C, C++, Java, Python) to perform a specific task.
 
@@ -36,7 +36,9 @@ the .class file is called "byte code ",it is machine-readable
 the .class file runs on any System with a Java Virtual Machine (JVM)
 
 what is class?
-A class is a blueprint that defines the variables and the methods common to all objects of a certain kind.
+A."Class" is a blueprint from which individual objects are created.
+        Classes have data and methods, data represents state and methods behavior. Class is just a logical framework.
+        So, a class is a template for an object and object is an instance of a class
 
 What is object?
 Object is an instance of a class ,is a self-contained component which consists of methods and
@@ -55,33 +57,30 @@ stands for application programming interface, a concept that applies everywhere
 from command-line tools to enterprise Java code to Ruby on Rails web apps. An API is a way
 to programmatically interact with a separate software component or resource.
 
-
 Can we have multiple constructors in a class?
 If we don't have a constructor declared, what is called during the object creation?
-
 
 What is the entry point of an application?
  The main() method is the entry point into the application.
 
 Why main is static?
-
- This is necessary because main() is called by the JVM before any objects are made.
-         Since it is static it can be directly invoked via the class.
+In order to call a method need to have a object of that method. As main method
+ is gateway to the java application JVM need to enter into main method in order
+ to execute. Static key word let JVM to call main method without  object.
 
 Which class is the superclass of all classes?
  Object class is the superclass of every other class.
 java.lang.Object
 
 What is difference between path and classpath variables?
-Answer:Path is an environment variable which is used by the operating system to find the executables.
-         Classpath is an environment variable which is used by the Java compiler to find the path,
+ Path is an environment variable which is used by the operating system to find the executables.
+ Classpath is an environment variable which is used by the Java compiler to find the path,
 
 What is the difference between an Interface and Abstract class?
 
  the main difference an abstract class can have abstract methods
 and not abstract methods . is not a 100% abstract
 interface is 100% abstract
-
 
 Can you make an Object from an Interface and Abstract class? If yes or no, how would you do it?
 
@@ -91,13 +90,12 @@ We can not make an object from Interface and Abstract Class. but we can make one
 
 What is Java Package and which package is imported by default?
 A package is a namespace that organizes a set of related classes and interfaces.
-       - Java.lang package.
+- Java.lang package.
 
 
 Does java support multiple inheritance? Why or why not?
  java does not support multiple inheritance through class. to avoid ambiguity error.
 java get confused
-
 
 What is method overloading and when it happens?
  compile-time Polymorphism
@@ -273,13 +271,12 @@ estNG is quite similar to JUnit, but with added functionalities and features suc
 
 What are the dependencies for this project?
 
-
 What is dependency injection in Java?
 In software engineering, dependency injection is a technique whereby one object
-         (or static method) supplies the dependencies of another object.
+ (or static method) supplies the dependencies of another object.
 
 Explain what static binding and dynamic binding is?
 A static binding in Java occurs during compile time while dynamic binding occurs during runtime.
-         private , final and static methods and variables use static binding and are bonded by compiler
-         while virtual methods are bonded during runtime based upon runtime object.
+ private , final and static methods and variables use static binding and are bonded by compiler
+   while virtual methods are bonded during runtime based upon runtime object.
 
